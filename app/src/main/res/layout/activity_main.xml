@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="It's never to be Late. "
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_thing_to_do"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="Thing To Do" />
+
+        <Button
+            android:id="@+id/btn_place_to_go"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn_thing_to_do"
+            android:layout_marginTop="5dp"
+            android:text="Place To Go" />
+    </RelativeLayout>
+
+</RelativeLayout>
